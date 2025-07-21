@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Gaming-specific color system
+				'game-card': {
+					DEFAULT: 'hsl(var(--game-card))',
+					foreground: 'hsl(var(--game-card-foreground))',
+					border: 'hsl(var(--game-card-border))'
 				}
+			},
+			backgroundImage: {
+				'featured-gradient': 'var(--featured-gradient)',
+				'nav-backdrop': 'var(--nav-background)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
